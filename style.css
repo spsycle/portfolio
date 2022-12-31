@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid 1px red; */
+}
+
+.webpage{
+    height: 700vh;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* preloader start */
+.preloader{
+    background: white url("/asset/loader1.gif") no-repeat center center;
+    background-size: 8%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    transition: all .5s ease-out ;
+}
+/* preloader end */
+
+/* hero section start */
+.sectionOne .container{
+    height: 100vh;
+    position: relative;
+}
+
+.hero{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero h1{
+    position: relative;
+    font-size: 96px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-weight: 400;
+    bottom: -100px;
+    opacity: 0;
+    transition: all .5s ease-out;
+}
+
+.hero h2{
+    position: relative;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    bottom: -100px;
+    opacity: 0;
+    transition: all .5s ease-out;
+}
+/* hero section end */
+
+/* about me section start */
+.sectionTwo{
+    margin-top: 50vh;
+    height: 50vh;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.sectionTwo .container{
+    width: 100%;
+    max-width: 70%;
+    position: absolute;
+    right: 0;
+}
+
+.aboutMe h1{
+    font-weight: 700;
+    width: 100%;
+    position: absolute;
+    margin-top: -100px;
+    left: -100vh;
+    color: #eeeeee;
+    font-size: 200px;
+    z-index: 1;
+    transition: all .5s ease-out;
+}
+
+.aboutMe p{
+    position: relative;
+    z-index: 2;
+    text-align: right;
+    font-size: 38px;
+    font-weight: 300;
+}
+/* about me section end */
+
+/* project section start */
+.section{
+    font-family: 'Open Sans', sans-serif;
+    top: 0;
+    transition: all .5s ease;
+}
+.section .project{
+    height: 100vh;
+}
+.section .project h4{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 32px;
+}
+.section .project .data{
+    padding-top: 10vh;
+    padding-left: 10vh;
+    width: 50%;
+}
+
+.section .project .data h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.section .project .data h2{
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.section .project .data p{
+     padding-top: 20px;
+     font-size: 30px;
+    font-weight: 400;
+}
+.section .project h5{
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+/* project section end */
+
+/* project satu section start */
+.sectionThree{
+    margin-bottom: 50vh;
+    opacity: 0;
+}
+/* project satu section end */
+
+/* project dua section start */
+.sectionFour{
+    opacity: 0;
+}
+/* project dua section end */
+
+/* project image start */
+.image{
+    position: relative;
+}
+.image img{
+    transition: all .5s ease-out;
+}
+.image img.imgSatu{
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    right: 20vw;
+    top: -0;
+}
+.image img.imgDua{
+    position: absolute;
+    border-radius: 10px;
+    width: 15%;
+    right: 0;
+    top: 0;
+}
+.image img.imgTiga{
+    position: absolute;
+    border-radius: 10px;
+    width: 15%;
+    right: 27vw;
+    top: 40vh;
+}
+.image img.imgEmpat{
+    position: absolute;
+    border-radius: 10px;
+    width: 14%;
+    right: 5vw;
+    top: 15vh;
+}
+.image img.imgLima{
+    position: absolute;
+    border-radius: 10px;
+    width: 18%;
+    right: 2vw;
+    top: 25vh;
+}
+.image img.imgEnam{
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    right: 22vw;
+    top: 15vh;
+}
+.image img.imgTujuh{
+    position: absolute;
+    border-radius: 10px;
+    width: 14%;
+    right: 5vw;
+    top: 120vh;
+}
+.image img.imgDelapan{
+    position: absolute;
+    border-radius: 10px;
+    width: 16%;
+    right: 25vw;
+    top: 100vh;
+}
+/* project image end */
+
+/* skills section start */
+.sectionFive{
+    padding-top: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    height: 200vh;
+}
+.sectionFive .skill h1{
+    position: absolute;
+    color: #eeeeee;
+    font-size: 200px;
+    z-index: 1;
+    margin-top: 4%;
+    right: -10vh;
+    transition: all .5s ease-out;
+}
+.sectionFive .skill table{
+    position: relative;
+    z-index: 2;
+    border: none;
+    margin: 0 auto;
+}
+.sectionFive .skill table td{
+    padding: 0 15vw;
+}
+.sectionFive .skill table ul li{
+    list-style-type: none;
+    font-size: 40px;
+}
+/* skills section end */
+
+/* contact section start */
+.sectionSix{
+    font-family: 'Open Sans', sans-serif;
+    height: 70vh;
+}
+.sectionSix .container{
+    position: relative;
+}
+.sectionSix h1{
+    position: absolute;
+    color: #eeeeee;
+    font-size: 200px;
+    z-index: 1;
+    left: -30vh;
+    transition: all .5s ease-out;
+}
+.sectionSix .contact{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    position: relative;
+    z-index: 2;
+}
+.sectionSix .contact i{
+    cursor: pointer;
+}
+/* contact section end */
+
+
