@@ -15,7 +15,7 @@ html,body{
 }
 
 .webpage{
-    height: 700vh;
+    height: 100%;
     max-width: 90%;
     margin: 0 auto;
 }
@@ -71,7 +71,7 @@ html,body{
 /* about me section start */
 .sectionTwo{
     margin-top: 50vh;
-    height: 50vh;
+    height: 0vh;
     position: relative;
     font-family: 'Open Sans', sans-serif;
 }
@@ -228,7 +228,7 @@ html,body{
 
 /* skills section start */
 .sectionFive{
-    padding-top: 100vh;
+    padding-top: 150vh;
     font-family: 'Open Sans', sans-serif;
     height: 200vh;
 }
@@ -258,8 +258,9 @@ html,body{
 
 /* contact section start */
 .sectionSix{
+    margin-top: 50vh;
     font-family: 'Open Sans', sans-serif;
-    height: 70vh;
+    height: 60vh;
 }
 .sectionSix .container{
     position: relative;
@@ -284,5 +285,3 @@ html,body{
     cursor: pointer;
 }
 /* contact section end */
-
-
