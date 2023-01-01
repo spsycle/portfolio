@@ -65,17 +65,17 @@ function winScroll(){
         aboutMe.style.display = "block";
     }
 
-    if(scrolled >= 1949 && scrolled <= 3249){
+    if(scrolled >= 1558 && scrolled <= 2760){
         projectSatu.style.position = "sticky";
         projectSatu.style.opacity = 1;
-    } else if (scrolled >= 3249 || scrolled <= 1949){
+    } else if (scrolled >= 2760 || scrolled <= 1558){
         projectSatu.style.opacity = 0;
     }
 
-    if(scrolled >= 3249 && scrolled <= 4162){
+    if(scrolled > 2760 && scrolled <= 4162){
         projectDua.style.opacity = 1;
         projectDua.style.position = "sticky";
-    } else if (scrolled <= 3249 || scrolled >= 4162){
+    } else if (scrolled <= 2760 || scrolled >= 4162){
         projectDua.style.opacity = 0;
     }
 
@@ -95,6 +95,3 @@ function winScroll(){
     };
 }
 /* animation end */
-
-
-
